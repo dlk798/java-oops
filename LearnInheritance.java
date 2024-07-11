@@ -16,6 +16,8 @@ class Dog extends Animal {
   }
 }
 
+// super keyword apne parent ke constructor ko call krta h
+
 public class LearnInheritance {
 
 	public static void main(String[] args) {

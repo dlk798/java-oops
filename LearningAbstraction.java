@@ -3,6 +3,8 @@
 
 // interface :  by default all methods and variables are public .  provide true abstraction.
 
+// ek class ke multiple parent nhii ho skte due to diamond problem , but we can use interfaces.
+
 package javaOOPS2;
 
 public class LearningAbstraction {

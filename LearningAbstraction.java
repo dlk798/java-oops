@@ -1,3 +1,8 @@
+
+// abstract class ka koi object nhii bn sakta
+
+
+
 package javaOOPS2;
 
 public class LearningAbstraction {

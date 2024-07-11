@@ -5,15 +5,25 @@ class Person {
 	int age;
 	
 	static int count;
+
+	// static keyword use krne se class ke lie constant rhega & object pe depend nhii krega .
+	
+	// static keyword : access ke lie object ki jarurat nhii h
 	
 	Person() {
 		count++;
 		System.out.println("person is being created");
 	}
+
+	// constructor propeerty ko initialize krta h
+	// constructor overloading can be possible
+
+	// this :  ek constructor se dusra constructor call krta h
 	
 	Person(String name, int age) {
+		  this() ;    //  apni classs ke dusre constructor ko call  karo 
 		this.name = name;
-		this.age = age;
+		this.age = age;   // same class ke dusre parameter ko access krta h
 		walking(this);
 	}
 	

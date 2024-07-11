@@ -1,7 +1,7 @@
 
 // abstract class ka koi object nhii bn sakta
 
-
+// interface :  by default all methods and variables are public . 
 
 package javaOOPS2;
 

@@ -1,3 +1,13 @@
+// private : sirf usi class ke andr access hoga 
+// default : pure package ke andr access hoga
+// public : khiin se v access hoga
+// protected : sirf us class ko or uske child ko access hoga
+
+
+
+
+
+
 package javaOOPS2;
 
 public class LearnEncapsulation {

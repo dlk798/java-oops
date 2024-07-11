@@ -16,6 +16,11 @@ public class LearnInheritence {
 	}
 }
 
+// compile time polymorphism : method overloading
+// run time polymorphism : this set example
+
+//   agr isi class mein milega to isi class ka method call hoga agr nhii mila to parent ko dekhega
+
 class Samsung extends MobilePhone{
 	void playGames() {
 		System.out.println("samsung playing games");
